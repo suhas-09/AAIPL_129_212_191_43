@@ -1,0 +1,66 @@
+[
+    {
+        "answer": "D",
+        "reasoning": "I is the child of H, who is the brother of G. F is the son-in-law of G, so F is married to one of G's children. Since F is the father of E, and E is the daughter of F, F is the father of E. C is the daughter of B, and B is the father of A. C is the sister of D, who is the mother of E. Therefore, I is the cousin of A, but since I is the child of H, who is the brother of G, and G is the brother of H, I is the maternal uncle of A."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Z is the spy, then his statement 'X is a knave or Y is a knight' could be either true or false. If Z is a spy, then X and Y must be knights and knaves respectively. X says Y is a knave, which is true, and Y says Z is a knight, which is false. This fits the scenario where exactly one is a spy (Z)."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the given information, we can deduce the seating arrangement. A is between B and F, and F is adjacent to D. D is two seats to the right of C, and E is directly opposite G. B is two seats to the left of E. By placing these clues together, we find that C is seated between D and G. Therefore, the person seated between C and D is G."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Assume A is truthful: Then B is a liar, so B's statement that C is truthful is false, making C a liar. C's statement that A is a liar would then be true, contradicting A being truthful. Assume B is truthful: Then C is truthful, but C's statement that A is a liar would make A a liar, contradicting B being truthful. Assume C is truthful: Then A is a liar, so A's statement that B is a liar is false, making B truthful, contradicting C being truthful. Thus, no one can be truthful, making D correct."
+    },
+    {
+        "answer": [
+            "C",
+            null,
+            null
+        ],
+        "reasoning": "From the given conditions, we can deduce the seating arrangement. A is opposite F, B is two seats left of C, D is adjacent to G, G is not adjacent to H, E is between I and H, I is not adjacent to A, and G is two seats right of H. By placing these constraints, H is between D and G."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is opposite D, so they are separated by two people. B is two seats to the left of C, and E is adjacent to F but not to A. F is not adjacent to D. By placing A and D opposite each other, and considering the positions of B, C, E, and F, D is the only person who can be between A and B."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the given information, A is directly opposite D, and F is seated between A and B. B is two seats to the left of E. Since F is between A and B, and A is opposite D, the only person left who can be between B and E is D."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the given information, A is directly opposite D, so they are seated across from each other. B is two seats to the left of E, and C is adjacent to both A and F. F is not adjacent to E. By placing A and D opposite each other, and placing B and E two seats apart, we find that D is between B and E."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Z is the spy, then Z's statement 'X is a liar' could be a lie or truth. If Z is a spy, then X is a knight (truth-teller) and Y is a knave (liar). Y's statement 'Z is a knight' would be a lie, which fits. X's statement 'Y is a knave' is true, which fits. This scenario satisfies the condition of exactly one spy (Z)."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Assume A is truthful: Then B is a liar, so B's statement that C is truthful is false, making C a liar. C's statement that A is a liar would then be true, contradicting A being truthful. Assume B is truthful: Then C is truthful, but C's statement that A is a liar would make A a liar, contradicting B being truthful. Assume C is truthful: Then A is a liar, so A's statement that B is a liar is false, making B truthful, contradicting C being truthful. Thus, no one can be truthful, making D correct."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the given information, A is opposite D, and F is adjacent to A. B is two seats to the right of E. C is not adjacent to F. By placing A and D opposite each other, and F adjacent to A, we can determine the positions of the others. B is two seats to the right of E, and C is not adjacent to F. This leads to C being between E and B."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Priya's only brother, so Ravi and Priya are siblings. Priya's father is the brother of Anjali's mother, making Anjali and Priya cousins. Anjali is the daughter of Ravi's paternal aunt, so Anjali is Ravi's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "From the given information, A is between B and F. D is directly opposite C, and F is two seats to the right of D. By placing D and C opposite each other, and F two seats to the right of D, we can determine the positions of the others. Since A is between B and F, and F is two seats to the right of D, B must be to the immediate left of A."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the given information, A is directly opposite D, so they are seated across from each other. B is two seats to the left of E, meaning B and E are separated by one seat. C is adjacent to F but not to A, and F is not adjacent to D. By placing the people in a circle and satisfying all conditions, C ends up between B and E."
+    },
+    {
+        "answer": "B",
+        "reasoning": "M is the son of K, who is the daughter of J. J is the son of A and D. A is the child of B and C. D is the daughter of E and F. H is the parent of G. Since M is the son of K, and K is the daughter of J, M is the nephew of H."
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the son of B, who is the daughter of C, who is the brother of D, who is the mother of E, who is the daughter of F. F is the son-in-law of G, who is the brother of H, who is the father of I. How is I related to A?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Uncle",
+            "D) D) Maternal Uncle"
+        ],
+        "answer": "D",
+        "explanation": "I is the child of H, who is the brother of G. G is the father-in-law of F, who is the son-in-law of C. C is the mother of B, who is the father of A. Thus, I is the maternal uncle of A."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014are on an island where knights always tell the truth, knaves always lie, and spies can either lie or tell the truth. X says, 'Y is a knave.' Y says, 'Z is a knight.' Z says, 'X is a knave or Y is a knight.' If exactly one of them is a spy, who is the spy?",
+        "choices": [
+            "A) X is the spy",
+            "B) Y is the spy",
+            "C) Z is the spy",
+            "D) None of them is the spy"
+        ],
+        "answer": "B",
+        "explanation": "Assume Y is the spy. If Y is a spy, their statement 'Z is a knight' could be true or false. If Z is a knight, then Z's statement 'X is a knave or Y is a knight' must be true. Since Y is a spy (not a knight), 'Y is a knight' is false, so 'X is a knave' must be true. X's statement 'Y is a knave' would then be a lie, making X a knave. This configuration has one spy (Y), one knight (Z), and one knave (X), satisfying the condition. Other options lead to contradictions."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Seven people\u2014A, B, C, D, E, F, G\u2014sit around a circular table. A is seated between B and F. D is seated two seats to the right of C. E is seated directly opposite G. B is seated two seats to the left of E. F is seated adjacent to D. Who is seated between C and D?",
+        "choices": [
+            "A) A) B",
+            "B) B) E",
+            "C) C) G",
+            "D) D) A"
+        ],
+        "answer": "B",
+        "explanation": "From clues, E is opposite G, so E and G are across the table. B is two left of E, placing B near the edge. D is two right of C, and F is adjacent to D. Only E fits between C and D without conflict."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals, A, B, and C, are seated in a row. A says, 'B is a liar.' B says, 'C is a truth-teller.' C says, 'A is a liar.' If exactly one of them is a truth-teller, who is it?",
+        "choices": [
+            "A) A) A is the truth-teller",
+            "B) B) B is the truth-teller",
+            "C) C) C is the truth-teller",
+            "D) D) None of them is a truth-teller"
+        ],
+        "answer": "C",
+        "explanation": "Assume C is the truth-teller. Then A is a liar (C's statement), and B is a truth-teller (B's statement). This contradicts the condition of exactly one truth-teller. Try B as truth-teller: B says C is a truth-teller, so C must be truthful, contradicting one truth-teller. Try A as truth-teller: A says B is a liar, so B is a liar. B says C is a truth-teller, which is a lie, so C is a liar. This fits: one truth-teller (A), two liars (B and C)."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people (A, B, C, D, E, F, G, H, I) sit around a circular table. A is directly opposite F. B is two seats to the left of C. D is adjacent to G, who is not adjacent to H. E is between I and H. I is not adjacent to A. G is two seats to the right of H. Who is sitting between D and G?",
+        "choices": [
+            "A) A) B",
+            "B) B) E",
+            "C) C) H",
+            "D) D) I"
+        ],
+        "answer": "C",
+        "explanation": "From the clues, G is two seats right of H, and D is adjacent to G. E is between I and H, and I is not adjacent to A. Only H fits between D and G without conflict."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is directly opposite D. B is two seats to the left of C. E is adjacent to F, but not to A. F is not adjacent to D. Who is sitting between A and B?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) E",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "A is opposite D, so they are not adjacent. B is two seats left of C, placing C two seats right of B. E is adjacent to F but not A. F is not adjacent to D. The only person who can be between A and B is F, as D is opposite A and E is adjacent to F but not A."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is directly opposite D. B is two seats to the left of E. C is not adjacent to F. F is seated between A and B. Who is seated between B and E?",
+        "choices": [
+            "A) A) D",
+            "B) B) C",
+            "C) C) A",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "F is between A and B. B is two seats left of E. Since A is opposite D, D is not adjacent to B. C is not adjacent to F, so C cannot be between B and E. D is opposite A, so D is not between B and E. Only F fits between B and E."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is directly opposite D. B is two seats to the left of E. C is adjacent to both A and F. F is not adjacent to E. Who is sitting between B and E?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) A",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "D is the only person who can sit between B and E without violating adjacency constraints. C is adjacent to A and F, so cannot be between B and E. A is opposite D, so not between B and E. B is two left of E, so the person between them must be D."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014are on an island where knights always tell the truth, knaves always lie, and spies can either lie or tell the truth. X says, 'Y is a knave.' Y says, 'Z is a knight.' Z says, 'X is a liar.' If exactly one of them is a spy, who is the spy?",
+        "choices": [
+            "A) X is the spy",
+            "B) Y is the spy",
+            "C) Z is the spy",
+            "D) None of them is the spy"
+        ],
+        "answer": "B",
+        "explanation": "Assume X is a spy: If X is a spy, then Y could be a knave (truthful statement), and Z could be a knight (truthful statement). But this would mean two truth-tellers and one spy, contradicting the 'exactly one spy' condition. Assume Y is a spy: Y's statement 'Z is a knight' could be a lie, making Z a knave. X says Y is a knave, which would be true if Y is a knave, but Y is a spy, so X could be a knight. This fits: X (knight), Y (spy), Z (knave). Assume Z is a spy: Z's statement 'X is a liar' could be a lie, making X a knight. Y says Z is a knight, which would be a lie, making Y a knave. This also fits: X (knight), Y (knave), Z (spy). However, the only configuration where exactly one is a spy and the others are consistent is when Y is the spy. Thus, B is correct."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals, A, B, and C, are seated in a row. A says, 'B is a liar.' B says, 'C is a truth-teller.' C says, 'A is a liar.' If exactly one of them is a truth-teller, who is the truth-teller?",
+        "choices": [
+            "A) A) A is the truth-teller",
+            "B) B) B is the truth-teller",
+            "C) C) C is the truth-teller",
+            "D) D) None of them is a truth-teller"
+        ],
+        "answer": "D",
+        "explanation": "Assume A is truthful: then B is a liar. B says C is truthful, which would be a lie, so C is a liar. But then C says A is a liar, which would be true, contradicting C being a liar. Assume B is truthful: then C is truthful. C says A is a liar, which would be true, but then A is a liar, contradicting B's truthful statement. Assume C is truthful: then A is a liar. A says B is a liar, which would be a lie, so B is truthful. But then B says C is truthful, which would be true, making C truthful and B truthful, contradicting exactly one truth-teller. Thus, no one can be truthful."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is directly opposite D. B is two seats to the right of E. C is not adjacent to F. F is adjacent to A. Who is sitting between E and B?",
+        "choices": [
+            "A) A) D",
+            "B) B) C",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "D",
+        "explanation": "A is opposite D, so they are not adjacent. F is adjacent to A, so F is next to A. B is two seats to the right of E. Since the table is circular, the only person who can be between E and B is A, as the positions align with the constraints."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Priya's only brother. Priya's father is the brother of Anjali's mother. Anjali is the daughter of Ravi's paternal aunt. How is Anjali related to Ravi?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Niece",
+            "C) C) Sister",
+            "D) D) Aunt"
+        ],
+        "answer": "D",
+        "explanation": "Ravi's father is Priya's brother. Priya's father is Anjali's maternal grandfather. Anjali is Ravi's paternal aunt's daughter, making her Ravi's cousin. Thus, Anjali is Ravi's aunt's daughter, not his aunt. D is correct."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is seated between B and F. D is directly opposite C. E is not adjacent to B. F is two seats to the right of D. Who is seated to the immediate left of A?",
+        "choices": [
+            "A) B",
+            "B) C",
+            "C) D",
+            "D) E"
+        ],
+        "answer": "A",
+        "explanation": "A is between B and F. D is opposite C, so C is not adjacent to D. F is two seats right of D, placing F opposite B. E is not adjacent to B, so E must be next to A. Thus, B is left of A."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit around a circular table. A is directly opposite D. B is two seats to the left of E. C is adjacent to F, but not to A. F is not adjacent to D. Who is sitting between B and E?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "C",
+        "explanation": "D is opposite A, so D is not adjacent to F. B is two left of E, so B and E are separated by one seat. C is adjacent to F but not A, placing C between B and E."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the only child of B and C. D is the only daughter of E and F. G is the only son of H and I. J is the only son of A and D. K is the only daughter of J and L. M is the only son of K and N. What is the relationship of M to H?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Grandson",
+            "D) D) Grandfather"
+        ],
+        "answer": "A",
+        "explanation": "H is the father of A, who is the father of J, who is the father of K, who is the mother of M. Thus, M is the cousin of H's child, making M H's cousin."
+    }
+]
